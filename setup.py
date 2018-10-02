@@ -31,7 +31,7 @@ entry_points = {
 }
 
 setup(name='openprocurement.archivarius.tenders',
-      version='1.0.1+dp',
+      version='1.0.1dp',
       description='openprocurement.archivarius.tenders',
       long_description=README,
       classifiers=[

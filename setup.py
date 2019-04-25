@@ -18,7 +18,6 @@ test_requires = requires + api_requires + [
     'python-coveralls',
     'nose',
     'mock',
-    'openprocurement.tender.belowthreshold',
 ]
 
 entry_points = {
@@ -31,7 +30,7 @@ entry_points = {
 }
 
 setup(name='openprocurement.archivarius.tenders',
-      version='1.0.1dp',
+      version='1.0.2dp',
       description='openprocurement.archivarius.tenders',
       long_description=README,
       classifiers=[
